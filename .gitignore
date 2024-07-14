@@ -4,3 +4,4 @@ Include
 Library 
 Share
 pyvenv.cfg
+__pycache__

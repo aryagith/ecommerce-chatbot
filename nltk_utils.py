@@ -13,7 +13,7 @@ def stem(word):
 
 def bag_of_words(tokenized_sentence, all_words):
     """
-    examle for bag of words :-
+    example for bag of words :-
     sentence = ["hello", "how", "are", "you"] 
     all_words = ["hi","hello", "I","you","bye","thank", "cool"]
     bag =       [0,    1,     0,     1,     0,    0,      0]
@@ -25,9 +25,5 @@ def bag_of_words(tokenized_sentence, all_words):
             bag[idx] = 1.0
     return bag
 
-sentence = ["hello", "how", "are", "you"] 
-all_words = ["hi","hello", "I","you","bye","thank", "cool"]
-bag= bag_of_words(sentence,all_words)
-print(bag)
 
 
