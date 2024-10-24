@@ -1,20 +1,90 @@
-{"intents":[
-    {"tag": "greeting",
-    "patterns":["Hi","How are you?","Is anyone there?","Hello","Good day"],
-    "responses":["Hello, thanks for visiting","Good to see you again","Hi there, how can I help you today?"],
-    "context_set":""
-    },
-    {"tag":"goodbye",
-    "patterns":["Bye","See you later","Goodbye"],
-    "responses":["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
-    },
-    {"tag":"thanks",
-    "patterns":["Thanks","Thank you","That's helpful"],
-    "responses":["Happy to help!","Any time!","My pleasure"]
-    },
-    {"tag":"hours",
-    "patterns":["What hours are you open?","What are your hours?","When are you open?"],
-    "responses":["We're open every day 9am-9pm","Our hours are 9am-9pm every day"]
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you?", "Is anyone there?", "Hello", "Good day"],
+            "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help you today?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What hours are you open?", "What are your hours?", "When are you open?"],
+            "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {
+            "tag": "returns",
+            "patterns": ["How do I return an item?", "What is your return policy?", "Can I return my order?"],
+            "responses": ["You can return any item within 30 days of purchase. Please visit our returns page for more details.", "Our return policy allows returns within 30 days of receiving your order. More details are on our returns page."]
+        },
+        {
+            "tag": "shipping",
+            "patterns": ["Do you offer free shipping?", "What are your shipping options?", "How long does shipping take?"],
+            "responses": ["We offer free standard shipping on orders over $50.", "Shipping times depend on your location, but usually, it takes 3-5 business days.", "You can choose between standard, express, and overnight shipping at checkout."]
+        },
+        {
+            "tag": "order_status",
+            "patterns": ["Where is my order?", "How can I track my order?", "What is the status of my order?"],
+            "responses": ["You can track your order using the tracking number provided in your confirmation email.", "Visit your account to view your order status or track your package."]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": ["What payment methods do you accept?", "Can I pay with PayPal?", "Do you accept credit cards?"],
+            "responses": ["We accept all major credit cards, PayPal, and Apple Pay.", "You can use credit cards, PayPal, and other payment options at checkout."]
+        },
+        {
+            "tag": "product_inquiry",
+            "patterns": ["Can you tell me more about this product?", "Is this item in stock?", "What are the features of this product?"],
+            "responses": ["This product has great features such as...", "Yes, this item is in stock. Would you like to know more about it?", "Here are the details of this product: ..."]
+        },
+        {
+            "tag": "discounts",
+            "patterns": ["Do you have any discounts?", "Are there any promotions?", "Can I get a discount?"],
+            "responses": ["Check our latest deals on the promotions page.", "We have discounts on select items, feel free to browse!", "Sign up for our newsletter to get exclusive discounts."]
+        },
+        {
+            "tag": "account_help",
+            "patterns": ["How do I create an account?", "I forgot my password", "How can I reset my password?"],
+            "responses": ["Creating an account is easy! Just click the 'Sign Up' button on the top right.", "You can reset your password by clicking 'Forgot password' on the login page.", "Don't worry! You can recover your password by following the reset instructions on the login page."]
+        },
+        {
+            "tag": "cancel_order",
+            "patterns": ["How can I cancel my order?", "Can I cancel my order?", "I need to cancel my purchase"],
+            "responses": ["You can cancel your order within 24 hours by visiting your account page.", "To cancel your order, please contact our customer service team."]
+        },
+        {
+            "tag": "refunds",
+            "patterns": ["When will I get my refund?", "How long does it take to process a refund?", "Can I get a refund?"],
+            "responses": ["Refunds typically take 5-7 business days to process.", "Once your return is received and inspected, we will process your refund within 5-7 business days."]
+        },
+        {
+            "tag": "store_location",
+            "patterns": ["Where are you located?", "Do you have physical stores?", "Can I visit your store?"],
+            "responses": ["We are an online store, but you can shop 24/7 on our website!", "We don't have physical locations, but you can browse our entire collection online."]
+        },
+        {
+            "tag": "customer_support",
+            "patterns": ["I need help with my order", "Can I talk to customer service?", "How do I contact support?"],
+            "responses": ["You can reach our customer service team via email at support@example.com or call us at (123) 456-7890.", "Our support team is available via live chat, email, or phone from 9am to 9pm."]
+        },
+        {
+            "tag": "exchange",
+            "patterns": ["Can I exchange an item?", "How do I exchange a product?", "What is your exchange policy?"],
+            "responses": ["You can exchange an item within 30 days of purchase. Visit our exchange policy page for details.", "We accept exchanges within 30 days. Just contact our support team for assistance."]
+        },
+        {
+            "tag": "newsletter",
+            "patterns": ["How do I sign up for the newsletter?", "Can I get updates via email?", "Do you send out newsletters?"],
+            "responses": ["You can sign up for our newsletter by entering your email at the bottom of the page.", "Subscribe to our newsletter for exclusive updates and promotions!"]
+        }
+    ]
 }
-]}
-

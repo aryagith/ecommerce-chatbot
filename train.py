@@ -58,7 +58,7 @@ model = NeuralNetwork(input_size=len(all_words), hidden_size=8, output_size=len(
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
-num_epochs = 2000
+num_epochs = 1000
 for epoch in range(num_epochs):
     for (words, labels) in train_loader:
         words = words.to(device, dtype=torch.float32)
